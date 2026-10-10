@@ -355,37 +355,6 @@ student-task-agent/
 └── tests/
     ├── __init__.py
     └── test_agent.py
-```
 
-### Method A: Via Git Command Line (Recommended)
-1. Open PowerShell in this project directory:
-   ```powershell
-   cd "c:\Users\user\Downloads\agentic ai"
-   ```
-2. Initialize repository and stage only clean project files:
-   ```powershell
-   git init
-   git add .gitignore README.md agent.py architecture.md requirements.txt schema.json data/ tests/
-   git commit -m "feat: complete Agentic Study Assistant assignment with test suite and schema"
-   ```
-3. Set your friend's GitHub remote and branch:
-   ```powershell
-   git branch -M main
-   git remote add origin https://github.com/<FRIEND-USERNAME>/<REPOSITORY-NAME>.git
-   git push -u origin main
-   ```
-
-### Method B: Manual Web Upload (Drag and Drop)
-1. Go to your friend's GitHub account and create a new repository (e.g. `agentic-study-assistant`).
-2. Click **Add file** → **Upload files**.
-3. Drag and drop the following files and folders:
-   - `agent.py`
-   - `schema.json`
-   - `architecture.md`
-   - `README.md`
-   - `requirements.txt`
-   - `.gitignore`
-   - Folder `data/` (containing `tasks.json` and `sample_tasks.json`)
-   - Folder `tests/` (containing `__init__.py` and `test_agent.py`)
 4. Type a commit message: `Initial submission for Agentic AI Study Assistant`.
 5. Click **Commit changes**.
