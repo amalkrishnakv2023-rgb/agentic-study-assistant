@@ -1,0 +1,11 @@
+# Agentic Study Assistant Dependencies
+#
+# Core Agent:
+# The core agent and CLI have ZERO external dependencies and run entirely
+# on Python 3.10+ standard library.
+#
+# Development & Formal Schema Validation:
+# 'jsonschema' is used in the automated test suite for formal Draft 2020-12
+# JSON schema validation. If absent, agent.py automatically falls back to
+# its built-in structural validator.
+jsonschema>=4.0.0
